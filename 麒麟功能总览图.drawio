@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="larBX6pWv86PLhowkpmZ">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-2" value="AI智能助手" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-3" value="日志收集" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-4" value="告警管理" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-5" value="知识库管理" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1133" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-6" value="系统终端" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-7" value="智能运维" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4MyJTWhkC7_-73r1PjVT-1" value="系统监控" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
