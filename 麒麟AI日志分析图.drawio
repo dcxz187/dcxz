@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="gSEYtOXUK1k85GM39jud">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-2" value="系统监控" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;shadow=1;glass=0;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-5" value="CPU使用率" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-2">
+          <mxGeometry x="20" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-6" value="磁盘IO" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-2">
+          <mxGeometry x="20" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-7" value="内存使用率" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-2">
+          <mxGeometry x="110" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-8" value="服务情况" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-2">
+          <mxGeometry x="110" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-4" value="日志采集" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;shadow=1;glass=0;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-9" value="journalctl" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-4">
+          <mxGeometry x="10" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-12" value="系统日志" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-4">
+          <mxGeometry x="100" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-11" value="应用日志" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-4">
+          <mxGeometry x="10" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-10" value="错误日志" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-4">
+          <mxGeometry x="100" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-13" value="容器监控" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;shadow=1;glass=0;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-14" value="docker logs" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-13">
+          <mxGeometry x="20" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-15" value="资源使用" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-13">
+          <mxGeometry x="20" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-16" value="容器状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-13">
+          <mxGeometry x="110" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-17" value="网络监控" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-13">
+          <mxGeometry x="110" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-18" value="数据库监控" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=none;rounded=1;shadow=1;glass=0;startSize=30;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="730" y="70" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-19" value="MySQL连通性" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-18">
+          <mxGeometry x="20" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-20" value="慢查询检测" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-18">
+          <mxGeometry x="20" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-21" value="Redis状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-18">
+          <mxGeometry x="110" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-22" value="连接池状态" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="liUIHpGMSX0ua7Pda2vT-18">
+          <mxGeometry x="110" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" edge="1" parent="1" source="liUIHpGMSX0ua7Pda2vT-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;direction=north;size=0.5;gradientColor=none;strokeWidth=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="670" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="liUIHpGMSX0ua7Pda2vT-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-39" value="文件存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="290" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="liUIHpGMSX0ua7Pda2vT-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-41" value="AI智能分析 DeepSeek" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="431.25" y="400" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-49" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="293.75" y="490" width="422.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-48" value="根因分析" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="578.75" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-45" value="异常识别" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="311.25" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="liUIHpGMSX0ua7Pda2vT-47" value="严重等级评估" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="445" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
